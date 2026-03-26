@@ -6,6 +6,28 @@ This project analyzes earnings call transcripts using FinBERT to extract sentime
 
 The analysis goes beyond simple sentiment scoring by introducing interpretable features such as tone gap, uncertainty, and sentiment volatility.
 
+## Installation
+
+Install the required packages before running the notebook:
+
+```bash
+pip install kagglehub transformers torch nltk tqdm scikit-learn scipy yfinance
+```
+
+### Dependencies
+
+* `kagglehub` : dataset loading from Kaggle
+* `transformers` : FinBERT model (HuggingFace)
+* `torch` : deep learning backend
+* `nltk` : sentence tokenization
+* `scikit-learn` : TF-IDF and feature extraction
+* `scipy` : statistical analysis
+* `yfinance` : sector mapping for companies
+* `tqdm` : progress bar
+
+```
+```
+
 
 ## Dataset
 
