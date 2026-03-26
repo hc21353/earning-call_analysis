@@ -6,7 +6,6 @@ This project analyzes earnings call transcripts using FinBERT to extract sentime
 
 The analysis goes beyond simple sentiment scoring by introducing interpretable features such as tone gap, uncertainty, and sentiment volatility.
 
----
 
 ## Dataset
 
@@ -15,7 +14,6 @@ The analysis goes beyond simple sentiment scoring by introducing interpretable f
 * Period: 2019–2022
 * Content: Prepared remarks + Q&A sections
 
----
 
 ## Methodology
 
