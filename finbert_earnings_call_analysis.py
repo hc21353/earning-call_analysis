@@ -3,16 +3,6 @@ Earnings Call Transcript Analysis with FinBERT
 Data: Earnings call transcripts scraped from Motley Fool
 """
 
-# 필요한 패키지 설치
-# kagglehub    : Kaggle 데이터셋 
-# transformers : HuggingFace FinBERT 모델
-# nltk         : 문장 tokenization
-# scikit-learn : TF-IDF, 통계 분석
-# scipy        : 통계 검정 (pearsonr, ttest_1samp, linregress 등)
-# yfinance     : Ticker → Sector 매핑 
-!pip install kagglehub transformers torch nltk tqdm scikit-learn scipy yfinance -q
-
-
 # 데이터 로드 및 기본 EDA
 import kagglehub
 import pandas as pd
