@@ -25,9 +25,6 @@ pip install kagglehub transformers torch nltk tqdm scikit-learn scipy yfinance
 * `yfinance` : sector mapping for companies
 * `tqdm` : progress bar
 
-```
-```
-
 
 ## Dataset
 
